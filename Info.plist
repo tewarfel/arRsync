@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>${EXECUTABLE_NAME}</string>
+	<key>CFBundleIconFile</key>
+	<string>app.icns</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.arrsync.arrsync</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>${PRODUCT_NAME}</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>0.4.1</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>0.4 Bugfix 1</string>
+	<key>NSMainNibFile</key>
+	<string>MainMenu</string>
+	<key>NSPrincipalClass</key>
+	<string>NSApplication</string>
+	<key>SmartCrashReports_CommentsTemplate</key>
+	<string>Please include your e-mail address if you wish to be contacted in regard to this crash.</string>
+	<key>SmartCrashReports_CompanyName</key>
+	<string>arRsync</string>
+	<key>SmartCrashReports_EmailTicket</key>
+	<string>SCR-E57D619016</string>
+	<key>NSAppleScriptEnabled</key> 
+	<string>NO</string> 
+	<key>OSAScriptingDefinition</key> 
+	<string>arRsync.sdef</string> 
+</dict>
+</plist>

@@ -1,0 +1,72 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {showPanel = id; }; 
+            CLASS = ErrorController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {errorTableView = NSTableView; mainWindow = NSPanel; }; 
+            SUPERCLASS = NSWindowController; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {
+                customiseToolbar = id; 
+                extendedAttrVChecksum = id; 
+                filePanelBrowse = id; 
+                filePanelClosedAction = id; 
+                goAction = id; 
+                modifyFileAction = id; 
+                toggleToolbar = id; 
+            }; 
+            CLASS = MainUIController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                errorController = ErrorController; 
+                fileDestTextField = NSTextField; 
+                fileFileTableView = NSTableView; 
+                fileSaveButton = NSButton; 
+                fileSheet = NSPanel; 
+                fileSourceTextField = NSTextField; 
+                fileTableView = NSTableView; 
+                goButton = NSButton; 
+                mainWindow = NSWindow; 
+                presetController = PresetController; 
+                rsyncController = RsyncController; 
+                scheduleController = ScheduleController; 
+            }; 
+            SUPERCLASS = NSWindowController; 
+        }, 
+        {CLASS = NSSegmentedControl; LANGUAGE = ObjC; SUPERCLASS = NSControl; }, 
+        {
+            ACTIONS = {
+                deletePresetAction = id; 
+                loadPresetAction = id; 
+                overwritePresetAction = id; 
+                savePresetAction = id; 
+                toggleDrawer = id; 
+            }; 
+            CLASS = PresetController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                drawer = id; 
+                mainUIController = MainUIController; 
+                presetTableView = NSTableView; 
+                rsyncController = RsyncController; 
+            }; 
+            SUPERCLASS = NSWindowController; 
+        }, 
+        {
+            CLASS = RsyncController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {mainUIController = MainUIController; }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {addScheduleAction = id; deleteScheduleAction = id; }; 
+            CLASS = ScheduleController; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSWindowController; 
+        }
+    ); 
+    IBVersion = 1; 
+}
